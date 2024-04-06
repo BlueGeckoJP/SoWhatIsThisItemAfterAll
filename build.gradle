@@ -7,11 +7,6 @@ buildscript {
         classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
     }
 }
-
-plugins {
-    id 'com.github.johnrengelman.shadow' version '7.1.2'
-}
-
 apply plugin: 'net.minecraftforge.gradle'
 // Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
 apply plugin: 'eclipse'
@@ -19,7 +14,7 @@ apply plugin: 'maven-publish'
 
 version = '1.0.0'
 group = 'me.bluegecko.sowhatisthisitemafterall' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'sowhatisthisitemafterall'
+archivesBaseName = 'SoWhatIsThisItemAfterAll'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(8) // Mojang ships Java 8 to end users, so your mod should target Java 8.
 
